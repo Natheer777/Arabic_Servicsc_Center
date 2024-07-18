@@ -167,7 +167,7 @@
 }
 
 .navbar-nav .nav-item {
-  /* transition: none; */
+  transition: none;
 }
 
 .title .left,
