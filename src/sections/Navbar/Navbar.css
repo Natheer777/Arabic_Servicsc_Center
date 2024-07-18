@@ -92,6 +92,7 @@
 
 .dropdown {
   position: relative;
+  padding: 0;
 }
 .dropdown-content {
   display: none; 
@@ -165,16 +166,9 @@
 .navbar-collapse {
   transition: none !important;
 }
-
-.navbar-nav .nav-item {
-  transition: none;
+.LanNAme{
+  font-size: 22px;
 }
-
-.title .left,
-.title .right {
-  transition: none;
-}
-
 .typing-demo {
   display: flex;
   align-items: center;
