@@ -143,7 +143,7 @@ setTimeout(() => {
         <>
           <Router>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/Arabic_Servicsc_Center/" element={<Home />} />
             </Routes>
           </Router>
         </>
