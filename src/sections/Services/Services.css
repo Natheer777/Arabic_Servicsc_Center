@@ -1,0 +1,52 @@
+.rowServices {
+  gap: 20px;
+  column-gap: 10px;
+}
+
+.ServicesTitle {
+  color: var(--color--green);
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.rowServices p {
+  font-size: 20px;
+  color: black;
+  opacity: 0.8;
+  line-height: 2;
+}
+
+
+
+.CaRd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.CaRd h4 {
+  line-height: 2;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+}
+
+.serv1,
+.serv2,
+.serv3,
+.serv4,
+.serv5,
+.serv6,
+.serv7,
+.serv8,
+.serv9,
+.serv10,
+.serv11 {
+  max-width: 20rem;
+  border-radius: 10px;
+  margin:0 auto !important;
+  background-color: white;
+}

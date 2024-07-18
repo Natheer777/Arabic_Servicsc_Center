@@ -1,0 +1,13 @@
+
+.vision-details{
+    line-height: 2;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.text-container{
+    width: 100%; 
+    white-space: normal; 
+    overflow: hidden; 
+}
