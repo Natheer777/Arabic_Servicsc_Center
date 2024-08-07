@@ -12,7 +12,6 @@ import { MdEmail } from "react-icons/md";
 import { FaLine } from "react-icons/fa";
 import Logo from './assets/Logo/لوغو-لغة-1جديد-01.webp'
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
-import video from './assets/lv_0_٢٠٢٤٠٦٠٢١٨١٣٥٩.mp4'
 
 const languages = [
   {
