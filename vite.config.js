@@ -14,6 +14,6 @@ export default defineConfig({
         }
       }
     },
-    chunkSizeWarningLimit: 1000 // زيادة الحد الأقصى لحجم التحذير
+    chunkSizeWarningLimit: 4000 // زيادة الحد الأقصى لحجم التحذير
   }
 })
