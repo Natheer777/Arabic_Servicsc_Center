@@ -6,7 +6,7 @@ export default function Vision() {
 
   return (
     <>
-     <div className="container same mt-5 mb-5">
+     <div className="container same">
       <div className="row">
         <div className='text-container'>
           <p className="vision-details right">{t("Vision-p")}</p>

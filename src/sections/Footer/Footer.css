@@ -24,6 +24,7 @@
 }
 .footer ul li {
   margin-bottom: 10px;
+  line-height: 2;
 }
 
 .logo_white {
@@ -40,7 +41,7 @@
 .adress {
   font-size: 18px;
   margin-bottom: 10px;
-  line-height: 1.5;
+  line-height: 2;
   text-align: start;
 }
 
@@ -79,7 +80,7 @@ text-decoration: none;
     color: white;
   position: absolute;
   left: 50%;
-  top: 42%;
+  top: 45%;
   transform: translate(-50%,-50%);
   }
   .DesktopView svg{

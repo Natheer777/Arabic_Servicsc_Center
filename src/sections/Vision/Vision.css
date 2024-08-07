@@ -1,9 +1,12 @@
-
+.container{
+    margin-top: 10vh;
+}
 .vision-details{
     line-height: 2;
     font-weight: 500;
     font-size: 20px;
     display: inline-block;
+    text-align: justify;
 }
 
 .text-container{

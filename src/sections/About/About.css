@@ -2,16 +2,18 @@
     margin-top: 6vh;
   }
   .about-title {
+    margin-top: 4vh;
     font-size: 2rem;
     color: var(--color--green);
   }
 
   .about-details {
-    margin-top: 20px;
-    line-height: 2.5;
+    /* margin-top: 20px; */
+    line-height: 2;
     font-weight: 500;
     font-size: 20px;
     display: inline-block;
+    text-align: justify;
   }
   .about-img {
     width: 100%;
