@@ -1,5 +1,3 @@
-
-
 .navbar-brand img {
   width: 10rem;
 }
@@ -22,20 +20,21 @@
   width: 4rem;
 }
 .title_toggler h1 {
-font-size: 20px !important;
+font-size: 23px !important;
 position: relative;
 bottom: 8px;
 }
 .title_toggler h1[lang="ja"]{
-  font-size: 15px !important;
-}
-.title_toggler h1[lang="en"]{
   font-size: 17px !important;
 }
+.title_toggler h1[lang="en"]{
+  font-size: 19px !important;
+}
 .title_toggler {
+  gap: 20px;
   margin: 0;
   display: flex !important;
-  gap: 12px;
+  /* gap: 12px; */
 }
 .title_toggler[lang="ar"]{
   direction: ltr;
@@ -49,6 +48,10 @@ bottom: 8px;
   display: none !important;
 }
 @media screen and (max-width: 997px) {
+  
+  .title{
+    padding-top: 8px !important;
+  }
   .container-fluid{
     flex-direction: row;
     border: 1px gray solid;
@@ -56,6 +59,7 @@ bottom: 8px;
     border-radius: 10px;
     margin-top: 10px;
     justify-content: space-between !important;
+    padding: 0;
   }
   .container-fluid[lang="ar"]{
     flex-direction: row-reverse;
@@ -132,7 +136,7 @@ bottom: 8px;
   margin: 0 !important;
 }
 .navbar-brand img{
-  width: 44px !important;
+  width: 45px !important;
   /* padding-top: 3px; */
 }
 .imgMobile[lang="ar"]{
@@ -143,11 +147,14 @@ bottom: 8px;
   line-height: 2;
 }
 }
+.navbar-toggler{
+  padding: 0;
+}
 .navbar-toggler svg{
-  font-size: 20px;
+  font-size: 25px;
 }
 .lanBtn svg {
-  font-size: 20px;
+  font-size: 25px;
 }
 .navbar-collapse {
   justify-content: center;
