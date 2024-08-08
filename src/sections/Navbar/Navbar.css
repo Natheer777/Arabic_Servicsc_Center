@@ -53,6 +53,8 @@ bottom: 8px;
     padding-top: 8px !important;
   }
   .container-fluid{
+    padding-top: 2px;
+    padding-bottom: 2px;
     flex-direction: row;
     border: 1px gray solid;
     align-items: stretch !important;
