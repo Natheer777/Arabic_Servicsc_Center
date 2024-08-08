@@ -97,11 +97,11 @@ export default function Navbar() {
                             <li> <a className="navbar-brand" href="#">
                                 <img src={Logo} alt="Logo" />
                             </a></li>
-                            <ul lang={i18n.language} className="title">
+                            <li className="title">
                                 <h1 lang={i18n.language}>
                                     {t("Header-h")}
                                 </h1>
-                            </ul>
+                            </li>
 
                         </ul>
                         <ul className="navbar-right">
