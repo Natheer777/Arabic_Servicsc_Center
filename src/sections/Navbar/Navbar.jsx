@@ -97,14 +97,15 @@ export default function Navbar() {
                             <li> <a className="navbar-brand" href="#">
                                 <img src={Logo} alt="Logo" />
                             </a></li>
-                            <li className="title">
+                        
+
+                        </ul>
+                        <ul className="navbar-right title_toggler">
+                        <li className="title">
                                 <h1 lang={i18n.language}>
                                     {t("Header-h")}
                                 </h1>
                             </li>
-
-                        </ul>
-                        <ul className="navbar-right">
                             <li lang={i18n.language} className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
                                 <span className="navbar-toggler-icon"></span>
                                 <div
@@ -154,6 +155,7 @@ export default function Navbar() {
                                 </button>
 
                             </li>
+                            
                         </ul>
 
                         <div className="collapse navbar-collapse" id="navbarNavDropdown" ref={navbarCollapseRef}>
