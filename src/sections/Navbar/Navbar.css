@@ -68,9 +68,9 @@ bottom: 9px;
     padding: 0;
     flex-direction: row-reverse;
   }
-  .container-fluid[lang="ar"]{
-    flex-direction: row-reverse;
-  }
+  .container-fluid[lang="ja"],.container-fluid[lang="en"]{
+  direction: rtl; 
+ }
   .t {
     display: none !important;
   }
@@ -116,7 +116,7 @@ bottom: 9px;
     /* right: 0px; */
   }
   .dropdown-content[lang="ja"],.dropdown-content[lang="en"]{
-    right: -135px;
+    /* right: -135px; */
   }
   .nav-item ,.dropdown{
     flex-direction: row-reverse;
