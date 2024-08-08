@@ -117,6 +117,7 @@ export default function Navbar() {
                                     <MdOutlineLanguage />
                                     <div
                                         className="dropdown-content"
+                                        lang={i18n.language}
                                         ref={dropdownTogglerRef}
                                         style={{ display: "none" }}
                                     >

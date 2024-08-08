@@ -22,13 +22,15 @@
 .title_toggler h1 {
 font-size: 23px !important;
 position: relative;
-bottom: 8px;
+bottom: 9px;
 }
 .title_toggler h1[lang="ja"]{
   font-size: 17px !important;
+  bottom: 7px;
 }
 .title_toggler h1[lang="en"]{
   font-size: 19px !important;
+  bottom: 8px;
 }
 .title_toggler {
   margin: 0;
@@ -36,8 +38,9 @@ bottom: 8px;
   /* gap: 12px; */
 }
 .title_toggler[lang="ar"]{
-  direction: ltr;
+  /* direction: ltr; */
   display: flex;
+  
 }
 .navbar-right{
   padding: 0;
@@ -65,7 +68,7 @@ bottom: 8px;
     padding: 0;
   }
   .container-fluid[lang="ar"]{
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
   .t {
     display: none !important;
@@ -110,6 +113,9 @@ bottom: 8px;
     top: 30px;
     /* right: 0px; */
   }
+  .dropdown-content[lang="ar"]{
+    right: -135px;
+  }
   .nav-item ,.dropdown{
     flex-direction: row-reverse;
     margin: 0 !important;
@@ -127,6 +133,7 @@ bottom: 8px;
   }
   .nav-item ,.dropdown{
     gap: 7px;
+    align-items: end;
   }
   .nav-item ,.dropdown[lang="ar"]{
   flex-direction: row;
