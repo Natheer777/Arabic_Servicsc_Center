@@ -158,6 +158,9 @@ bottom: 9px;
   padding: 0 !important;
   line-height: 2;
 }
+.flex-container{
+  justify-content: center !important;
+}
 }
 .navbar-toggler{
   padding: 0;
