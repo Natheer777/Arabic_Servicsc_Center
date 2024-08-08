@@ -141,7 +141,7 @@ bottom: 9px;
   flex-direction: row;
 }
 .nav-item ,.dropdown[lang="ja"]{
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 .navbar-brand{
   padding: 0 !important;
