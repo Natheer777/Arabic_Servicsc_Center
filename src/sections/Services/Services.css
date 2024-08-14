@@ -10,6 +10,7 @@
 }
 
 .rowServices p {
+  text-align: justify;
   font-size: 20px;
   color: black;
   opacity: 0.8;

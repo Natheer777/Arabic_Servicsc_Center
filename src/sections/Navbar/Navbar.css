@@ -64,9 +64,10 @@ bottom: 9px;
     align-items: stretch !important;
     border-radius: 10px;
     margin-top: 10px;
-    justify-content: space-between !important;
+    justify-content: normal !important;
     padding: 0;
     flex-direction: row-reverse;
+    height: 45px;
   }
   .container-fluid[lang="ja"],.container-fluid[lang="en"]{
   direction: rtl; 
@@ -112,7 +113,7 @@ bottom: 9px;
     display: block;
   }
   .dropdown-content{
-    top: 30px;
+    top: 26px;
     /* right: 0px; */
   }
   .dropdown-content[lang="ja"],.dropdown-content[lang="en"]{
