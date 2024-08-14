@@ -22,7 +22,7 @@
 .title_toggler h1 {
 font-size: 23px !important;
 position: relative;
-bottom: 9px;
+bottom: 11px;
 }
 .title_toggler h1[lang="ja"]{
   font-size: 17px !important;
@@ -50,15 +50,23 @@ bottom: 9px;
   display: none !important;
 }
 @media screen and (max-width: 997px) {
-  .title[lang="ar"]{
-    padding-top: 5px !important;
-  }
   .title{
-    padding-top: 11px !important;
+    /* padding-top: 14px !important; */
   }
-  .container-fluid{
+  .title[lang="ar"]{
     padding-top: 2px !important;
-    padding-bottom: 2px !important;
+  }
+  .container-fluid[lang="ja"]{
+  padding-top:7.7px !important;
+  padding-bottom: 7.7px !important;
+}
+.container-fluid[lang="en"]{
+  padding-top: 6.6px !important;
+  padding-bottom: 6.6px !important;
+}
+  .container-fluid{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
     flex-direction: row;
     border: 1px gray solid;
     align-items: stretch !important;
@@ -67,7 +75,7 @@ bottom: 9px;
     justify-content: normal !important;
     padding: 0;
     flex-direction: row-reverse;
-    height: 45px;
+    /* height: 45px !important; */
   }
   .container-fluid[lang="ja"],.container-fluid[lang="en"]{
   direction: rtl; 
