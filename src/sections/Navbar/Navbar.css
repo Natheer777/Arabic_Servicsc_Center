@@ -53,20 +53,24 @@ bottom: 11px;
   .title{
     /* padding-top: 14px !important; */
   }
-  .title[lang="ar"]{
+  /* .title[lang="ar"]{
     padding-top: 2px !important;
-  }
+  } */
+  .container-fluid[lang="ar"]{
+  padding-top:1px !important;
+  padding-bottom: 1px !important;
+}
   .container-fluid[lang="ja"]{
-  padding-top:7.7px !important;
-  padding-bottom: 7.7px !important;
+  padding-top:5px !important;
+  padding-bottom: 5px !important;
 }
 .container-fluid[lang="en"]{
-  padding-top: 6.6px !important;
-  padding-bottom: 6.6px !important;
+  padding-top: 3.5px !important;
+  padding-bottom: 3.5px !important;
 }
   .container-fluid{
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
+    /* padding-top: 4px !important; */
+    /* padding-bottom: 4px !important; */
     flex-direction: row;
     border: 1px gray solid;
     align-items: stretch !important;
