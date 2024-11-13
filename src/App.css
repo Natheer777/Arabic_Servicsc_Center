@@ -192,7 +192,7 @@
     transition-delay: 150ms;
   }
   .email {
-    background-color: palevioletred;
+    background-color: rgb(100, 100, 224);
     transition-delay: 100ms;
   }
   .line {
@@ -201,6 +201,10 @@
   }
   .click {
     background-color: #24c662;
+  }
+  .call{
+    background-color: rgb(10, 177, 10);
+    transition-delay: 150ms;
   }
   
   

@@ -12,6 +12,8 @@ import { MdEmail } from "react-icons/md";
 import { FaLine } from "react-icons/fa";
 import Logo from './assets/Logo/لوغو-لغة-1جديد-01.webp'
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
+
 
 const languages = [
   {
@@ -117,21 +119,26 @@ setTimeout(() => {
           </li>
           {showIcons && (
             <>
-              <li className="line top">
+              {/* <li className="line top">
                 <a href="https://line.me/ti/p/IuAqVt59QV">
                   <FaLine />
                 </a>
-              </li>
+              </li> */}
               <li className="email top">
                 <a href="mailto:contact@arabicsc.com">
                   <MdEmail />
                 </a>
               </li>
-              <li className="whatsapp top">
+              <li className="call top">
+                <a href="tel:+81090-1840-9625">
+                  <IoCall />
+                </a>
+              </li>
+              {/* <li className="whatsapp top">
                 <a href="https://wa.link/mr0gya">
                   <FaWhatsapp />
                 </a>
-              </li>
+              </li> */}
             </>
           )}
         </ul>
@@ -142,7 +149,7 @@ setTimeout(() => {
         <>
           <Router>
             <Routes>
-              <Route path="/Arabic_Servicsc_Center/" element={<Home />} />
+              <Route path="/" element={<Home />} />
             </Routes>
           </Router>
         </>
